@@ -4,7 +4,7 @@
 
 (require
  '[degree9.boot-semver :refer :all]
- '[degree9.boot-shadow :as shadow])
+ '[zilti.boot-shadow :as shadow])
 
 (task-options!
   pom    {:project 'zilti/boot-shadow
