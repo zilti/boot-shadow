@@ -1,6 +1,5 @@
 (set-env!
- :dependencies  '[[boot/core            "2.8.2"]
-                  [degree9/boot-semver  "1.8.0"  :scope "test"]]
+ :dependencies  '[[degree9/boot-semver  "1.8.0"  :scope "test"]]
  :resource-paths   #{"src"})
 
 (require
@@ -8,10 +7,10 @@
  '[degree9.boot-shadow :as shadow])
 
 (task-options!
-  pom    {:project 'degree9/boot-shadow
+  pom    {:project 'zilti/boot-shadow
           :description "Boot-clj task for compiling ClojureScript using shadow-cljs."
-          :url         "https://github.com/degree9/boot-shadow"
-          :scm         {:url "https://github.com/degree9/boot-shadow"}}
+          :url         "https://gitea.lyrion.ch/zilti/boot-shadow"
+          :scm         {:url "https://gitea.lyrion.ch/zilti/boot-shadow"}}
   target {:dir #{"target"}})
 
 (deftask develop

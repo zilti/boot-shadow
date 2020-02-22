@@ -1,4 +1,4 @@
-(ns degree9.boot-shadow.pod
+(ns zilti.boot-shadow.pod
   (:require [clojure.java.io :as io]
             [boot.util :as util]
             [shadow.cljs.devtools.api :as api]

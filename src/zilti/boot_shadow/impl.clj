@@ -1,4 +1,4 @@
-(ns degree9.boot-shadow.impl
+(ns zilti.boot-shadow.impl
   (:require [clojure.java.io :as io]
             [boot.core :as boot]
             [boot.pod  :as pod]
